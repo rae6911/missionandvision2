@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission and Vision</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon"  type="image/x-icon" href="/logo.png">
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Victoria Logo">
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="/landing_page/index.html">Home</a></li>
+        <!-- About Us Dropdown -->
+        <li class="dropdown">
+          <a href="#">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a href="/about_page/missionvision.html">Mission and Vision</a></li>
+              <li><a href="/about_page/municipal.html">Municipal Profile</a></li>
+              <li><a href="/about_page/past_mayor.html">Past Mayors of Victoria</a></li>
+              <li><a href="/about_page/barangay.html">Barangays</a></li>
+              <li><a href="/about_page/directory.html">Directory</a></li>
+              <li><a href="/about_page/events.html">News and Event</a></li>
+            </ul>
+        </li>
+
+        <!-- Government Dropdown -->
+        <li class="dropdown">
+          <a href="#">Government</a>
+            <ul class="dropdown-menu">
+              <li><a href="/government_page/official.html">Elected Officials</a></li>
+              <li><a href="/government_page/department_head.html">Department / Offices</a></li>
+              <li><a href="/government_page/full_disclosure.html">Full Disclosure Policy</a></li>
+              <li><a href="/government_page/document.html">Documents and Plans</a></li>
+            </ul>
+        </li>
+
+        <!-- Services Dropdown -->
+        <li class="dropdown">
+          <a href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="/services_page/downloadables.html">Downloadables</a></li>
+              <li><a href="/services_page/job.html">Job</a></li>
+            </ul>
+        </li>
+
+        <!-- Business Dropdown -->
+        <li class="dropdown">
+          <a href="#">Business</a>
+            <ul class="dropdown-menu">
+              <li><a href="/business_page/permit.html">Business and Permit Licensing</a></li>
+              <li><a href="/business_page/resort.html">Hotel, Resorts and Restaurants</a></li>
+              <li><a href="/business_page/attraction.html">Attraction</a></li>
+              <li><a href="/business_page/product.html">Product</a></li>
+            </ul>
+        </li>
+
+        <!-- Education Dropdown -->
+        <li class="dropdown">
+          <a href="#">Education</a>
+            <ul class="dropdown-menu">
+              <li><a href="/education_page/public_elem.html">Public Elementary Schools</a></li>
+              <li><a href="/education_page/public_secondary.html">Public Secondary Schools</a></li>
+              <li><a href="/education_page/private_school.html">Private and Parochial Schools</a></li>
+            </ul>
+      </ul>
+      
+      <div class="nav-icons">
+        <!-- Search -->
+          <div class="search-container">
+            <i class="fa fa-search search-icon" onclick="toggleSearch()"></i>
+            <input type="text" class="search-input" placeholder="Search...">
+          </div>
+
+      <!-- Log In and Sign Up Button --> 
+       <button class="login-btn" onclick="document.location='/login_signup_page/login.html'">Log In</button>
+       <button class="signup-btn" onclick="document.location='/login_signup_page/signup.html'">Sign Up</button>
+      
+      </div>
+      <div class="hamburger">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="container">
+    <div class="text-section">
+      
+      <!-- Mission -->
+      <div class="card">
+        <div class="card-header">
+          <i class="fa-solid fa-bullseye"></i>
+          <h2>Mission</h2>
+        </div>
+        <p>
+          To provide adequately the actual needs of the citizenry, through the extraction of the economic potentials of the Municipality and utilization of technologies in supporting the development directions of the Local Government.
+        </p>
+      </div>
+
+      <!-- Vision -->
+      <div class="card">
+        <div class="card-header">
+          <i class="fa-regular fa-lightbulb"></i>
+          <h2>Vision</h2>
+        </div>
+        <h4>MAUNLAD NA VICTORIA</h4>
+        <p>
+          A town in the heart of Central Luzon with multi-sectoral opportunities healthy and discipline citizenry with adequate infrastructure anchored in sustainable and holistic development with transparent and responsive governance.
+        </p>
+      </div>
+    </div>
+
+    <div class="image-section">
+  <img src="bird.png" 
+       alt="Canarem Lake Bird Sanctuary">
+
+      <p class="caption">Canarem Lake Bird Sanctuary</p>
+    </div>
+  </div>
+</body>
+  <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <div class="footer-logo">
+        <img src="logo.png" alt="Maunlad na Victoria Logo">
+        <img src="rva.png" alt="Maunlad na Victoria Logo">
+        <h3>Maunlad na Victoria</h3>
+      </div>
+      <p>
+        A town in the heart of Central Luzon with multi-sectoral opportunities, healthy and disciplined
+        citizenry with adequate infrastructure anchored in sustainable and holistic development with
+        transparent and responsive governance.
+      </p>
+    </div>
+    <div class="footer-contact">
+      <h4>CONTACT US</h4>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i> Rizal St. San Gavino, Victoria, Tarlac</li>
+        <li><i class="fas fa-phone"></i> 0919-076-5146</li>
+        <li><i class="fas fa-envelope"></i> lguvictoria.otm@gmail.com</li>
+        <li><i class="fab fa-facebook"></i> facebook.com/maunladnavictoria</li>
+      </ul>
+    </div>
+
+    <div class="footer-support">
+      <h4>SUPPORT</h4>
+      <ul>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Licenses</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <p>All rights reserved Municipality of Victoria, Province of Tarlac. Copyright © 2025.</p>
+  </div>
+</footer>
+</html>
